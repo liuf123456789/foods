@@ -1,0 +1,583 @@
+<!DOCTYPE >
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>菜单</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1">
+		<link rel="stylesheet" href="css/bootstrap.css">
+		<script src="js/jquery.min.js"></script>
+		<script src="js/popper.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<link rel="stylesheet" href="css/menu.css" />
+		<link rel="stylesheet" type="text/css" href="css/comm.css"/>
+		<link rel="stylesheet" type="text/css" href="css/header.css"/>
+	</head>
+	<body>
+		
+		<div class="container">
+			<header>
+				<div class="row no-gutters">
+					<!-- logo栏 -->
+					<div class="col-md-12 col-lg-3 pl-2">
+						<a class="navbar-brand" href="#">
+							<img class="w-75" src="img/logo.png" alt="">
+						</a>
+					</div>
+					<div class="col-md-12  col-lg-5 ">
+							<div class="input-group mt-4">
+							    <input class="form-control text_small bg-transparent" type="text" placeholder="请输入菜谱/食材/菜单/作者">
+							    <a class="btn text-danger"  href="#">搜索</a>
+						    </div>
+					</div>
+					<div class="col-md-12 col-lg-4 mt-3 pl-5">
+						<ul class="breadcrumb bg-transparent ">
+							<li class="breadcrumb-item">
+								<a class="breadcrumb-link text_small text-dark" href="https://wx.qq.com/"><img src="img/wechat.png" > 微信登录</a>
+							</li>
+							<li class="breadcrumb-item">
+								<a class="breadcrumb-link text_small text-dark" href=""><img src="img/sinablog.png"> 微博登录</a>
+							</li>
+							<li class="breadcrumb-item">
+								<a class="breadcrumb-link text_small text-dark " href="login.html">登录</a>
+							</li>
+							<li class="breadcrumb-item">
+								<a class="breadcrumb-link text_small text-dark" href="reg.html">注册</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<ul class="nav">
+					<li class="nav-item"><a class="nav-link text-dark" href="index.html">首页</a></li>
+					<li class="nav-item">
+						<div class="dropdown">
+					        <a data-toggle="dropdown" class=" nav-link dropdown-toggle">菜谱</a>
+					        <ul class="dropdown-menu">
+					        	<li><a class="text-danger" href="#">烘焙甜品饮料</a></li>
+					        	<li><a class="text-danger" href="#">肉类</a></li>
+					        	<li><a class="text-danger" href="#">蔬菜水果类</a></li>
+					        	<li><a class="text-danger" href="#">汤粥主食</a></li>
+					        	<li><a class="text-danger" href="#">水产</a></li>
+								<li><a class="text-danger" href="#">蛋奶豆制品</a></li>
+								<li><a class="text-danger" href="#">米面干果腌咸</a></li>
+								<li><a class="text-danger" href="#">口味特色</a></li>
+					        </ul>
+				       </div>
+				       </li>
+					<li class="nav-item"><a class="nav-link text-dark" href="menu.html">菜单</a></li>
+					<li class="nav-item"><a class="nav-link text-dark" href="pfoodsharing.html">作品动态</a></li>
+				</ul>
+			</header>
+			<section>
+			<div class="navs mt-3">
+				<div class="carte">
+					<ul class="nav text-white">
+						<li class="nav-item">
+							<a data-toggle="pill" class="nav-link  text-white" href="#d5">家常菜</a>
+						</li>
+						<li class="nav-item">
+							<a  data-toggle="pill" class="nav-link  text-white" href="#d6">素菜</a>
+						</li>
+						<li class="nav-item">
+							<a  data-toggle="pill" class="nav-link  text-white active" href="#d7">凉菜</a>
+						</li>
+						<li class="nav-item">
+							<a data-toggle="pill" class="nav-link  text-white" href="#d8">私房菜</a>
+						</li>
+						<li class="nav-item">
+							<a data-toggle="pill" class="nav-link  text-white" href="#d9">创意菜</a>
+						</li>
+					</ul>
+				</div>
+				<div class="tab-content">
+					<div id="d5" class="tab-pane">
+						<div>
+							<ul class="nav">
+								<li class="nav-item"><a class="nav-link" href="">香辣鸡胗</a></li>
+								<li  class="nav-item"><a class="nav-link" href="">砂锅炖红烧肉</a></li>
+								<li class="nav-item"><a class="nav-link" href="">梭子蟹炒年糕</a></li>
+								<li  class="nav-item"><a class="nav-link" href="">葱油淋杏鲍菇</a></li>
+								<li class="nav-item"><a class="nav-link" href="">可乐土豆</a></li>
+								<li  class="nav-item"><a class="nav-link" href="">鱼香肉丝</a></li>
+								<li class="nav-item"><a class="nav-link" href="">客家糯米丸子</a></li>
+								<li  class="nav-item"><a class="nav-link" href="">网红鸡爪</a></li>
+								<li class="nav-item"><a class="nav-link" href="">薯片鸡翅</a></li>
+								<li  class="nav-item"><a class="nav-link" href="">红烧牛肉</a></li>
+								<li  class="nav-item"><a class="nav-link" href="">网红鸡爪</a></li>
+								<li class="nav-item"><a class="nav-link" href="">薯片鸡翅</a></li>
+								<li  class="nav-item"><a class="nav-link" href="">红烧牛肉</a></li>
+							</ul>
+						</div>
+						<div>
+							<div class="food_show row no-gutters  justify-content-between mt-2">
+								<div class=" col-xl-3 col-lg-3 col-md-6 col-sm-6 h_hover">
+									<div class="t_show mr-2 mb-1">
+										<img class="w-100 pic_a" src="img/f42.jpg" />
+										<div class="title_des w-100 text-white ">
+										    <p class="title_d mt-5 ml-3">标题：农家小炒肉</p>
+										    <p class="dec ml-3">描述：
+											对于冠有“农家”两个字的菜，在我认为，关键就是突出原汁原味的乡土气息，所以，重点不在刀工与形状，而在于主配料的齐全。农家小炒肉，说白了其实就是精华版的尖椒炒肉，但姜、蒜、辣椒不能省，正是由于多种配料的加入，才令爆香的味道十分惹人。
+											</p>
+									    </div>
+									</div>
+								</div>
+								<div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
+									<div class="t_show  mr-2">
+										<img class="w-100 pic_a" src="img/f43.jpg" />
+										<div class="title_des w-100 text-white">
+										    <p class="title_d mt-5 ml-3">标题：多彩蒸三蛋</p>
+										    <p class="dec  ml-3">描述：
+											多彩蒸三蛋”，这个菜是爸爸拿手的。 自从爸妈带我们从厦门回到了老家，就利用屋后的泯沟养起了鸭子。 几只鸭子很争气，几乎是天天下蛋，妈妈就向邻居学习腌咸蛋，做皮蛋。每次都做一大缸子。 一开始吃那咸蛋，往往正好吃，越往后就越咸。 最后，咸的不能单独吃了，爸爸就把咸蛋与鲜蛋混起来蒸，有时候还加个皮蛋。 这样，好看又好吃的蒸三蛋就诞生了！
+											</p>
+									    </div>
+									</div>
+								</div>
+								<div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
+									<div class="t_show  mr-2 mb-1">
+										<img class="w-100 pic_a" src="img/f33.jpg" />
+										<div class="title_des w-100 text-white">
+										    <p class="title_d mt-5 ml-3">标题：青椒炒牛肉</p>
+										    <p class="dec ml-3">描述：
+											青椒炒牛肉，一道简单的家常菜。牛肉和辣椒的味道非常的配合，喜欢辣的，可以用尖椒，吃不习惯辣的，可以用青椒，做法都一样的。
+											</p>
+									    </div>
+									</div>
+								</div>
+								<div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
+									<div class="t_show ">
+										<img class="pic_a w-100" src="img/f34.jpg" />
+										<div class="title_des w-100 text-white">
+										    <p class="title_d mt-5 ml-3">标题：芥末虾球</p>
+										    <p class="dec ml-3">描述：
+											鲜虾过热油，炸得外皮微皱，再均匀的裹上沙拉酱和芥末调成的酱汁。 一口咬下去，虾肉的弹滑，沙拉的香甜，芥末的清辣混合在口腔中游走，非常带感。
+											</p>
+									    </div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div id="d6" class="tab-pane">
+						<div>
+							<ul class="nav">
+								<li class="nav-item"><a class="nav-link" href="">酸辣白菜</a></li>
+								<li  class="nav-item"><a class="nav-link" href="">可乐土豆</a></li>
+								<li class="nav-item"><a class="nav-link" href="">糖醋凤尾白菜</a></li>
+								<li  class="nav-item"><a class="nav-link" href="">糖醋红萝卜丝</a></li>
+								<li class="nav-item"><a class="nav-link" href="">孜然土豆</a></li>
+								<li  class="nav-item"><a class="nav-link" href="">咖喱时蔬</a></li>
+								<li class="nav-item"><a class="nav-link" href="">猪肉白菜卷"</a></li>
+								<li  class="nav-item"><a class="nav-link" href="">卤香菠菜</a></li>
+								<li class="nav-item"><a class="nav-link" href="">土豆肉丝</a></li>
+								<li  class="nav-item"><a class="nav-link" href="">磨菇煮豆腐</a></li>
+							</ul>
+						</div>
+						<div>
+							<div class="food_show row no-gutters  justify-content-between mt-2">
+								<div class=" col-xl-3 col-lg-3 col-md-6 col-sm-6 h_hover">
+									<div class="t_show mr-2 mb-1">
+										<img class="w-100 pic_a" src="img/f44.jpg" />
+										<div class="title_des w-100 text-white ">
+										    <p class="title_d mt-5 ml-3">标题：荷塘小炒</p>
+										    <p class="dec ml-3">描述：
+												糖·果妈爱吃麻辣烫，但是外面的麻辣烫辣的有点不正常，据说是有一种叫辣椒精的东西，放一点点就可以很辣，那种辣吃完嘴巴和胃部都会有灼烧感。尤其是像糖·果妈这样的胃病患者，更是不能碰。 自己在家做的麻辣烫一样很好吃，是香辣安全的。喜欢的可以试试。
+											
+											</p>
+									    </div>
+									</div>
+								</div>
+								<div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
+									<div class="t_show  mr-2">
+										<img class="w-100 pic_a" src="img/f32.jpg" />
+										<div class="title_des w-100 text-white">
+										    <p class="title_d mt-5 ml-3">标题：凉拌芹菜叶</p>
+										    <p class="dec  ml-3">描述：
+											.将千张切成丝，放在开水中焯一下.捞出的千张丝放在盘中，放凉，再加入准备好的水芹菜叶.用捣蒜器将蒜碾碎放入其中.加入些白醋.加一小勺白糖
+											</p>
+									    </div>
+									</div>
+								</div>
+								<div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
+									<div class="t_show  mr-2 mb-1">
+										<img class="w-100 pic_a" src="img/f45.jpg" />
+										<div class="title_des w-100 text-white">
+										    <p class="title_d mt-5 ml-3">标题：蒜香娃娃菜</p>
+										    <p class="dec ml-3">描述：
+											 娃娃菜外形与大白菜一致，但外形尺寸仅相当于大白菜的四分之一到五分之一，类似大白菜的“仿真微缩版”，因其样子小巧可爱且脆嫩被称为娃娃菜。关于娃娃菜的吃法是很多的，不过常见的以油淋居多。把炒好的葱油或蚝油汁淋在切成细条状的脆嫩的娃娃菜上，鲜香爽脆。
+											</p>
+									    </div>
+									</div>
+								</div>
+								<div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
+									<div class="t_show ">
+										<img class="pic_a w-100" src="img/f46.jpg" />
+										<div class="title_des w-100 text-white">
+										    <p class="title_d mt-5 ml-3">标题：清炒山药片</p>
+										    <p class="dec ml-3">描述：
+											山药具有健脾益肺、固肾益精等多种功效，营养丰富，被称为物美价廉的补虚佳品。 山药有很多种，吃法也很多，煮汤，煲粥，凉拌，炝炒都不错，但脆的菜山药适合清炒，粉面的铁棍山药更适合清蒸或煲粥。但其营养都差不多。今天上传一道快手小炒吧，清炒山药片，用的是菜山药，炒好后山药很脆爽。
+											</p>
+									    </div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div id="d7" class="tab-pane active">
+						<div>
+							<ul class="nav">
+								<li class="nav-item"><a class="nav-link" href="">千张包</a></li>
+								<li  class="nav-item"><a class="nav-link" href="">荠菜香干千张包</a></li>
+								<li class="nav-item"><a class="nav-link" href="">凉拌海白菜</a></li>
+								<li  class="nav-item"><a class="nav-link" href="">糟卤毛豆</a></li>
+								<li class="nav-item"><a class="nav-link" href="">萝卜凉拌豆皮</a></li>
+								<li  class="nav-item"><a class="nav-link" href="">糖醋红心萝卜</a></li>
+								<li class="nav-item"><a class="nav-link" href="">木耳拌菠菜</a></li>
+								<li  class="nav-item"><a class="nav-link" href="">凉拌金针莴笋叶</a></li>
+								<li class="nav-item"><a class="nav-link" href="">糖醋萝卜丝</a></li>
+								<li  class="nav-item"><a class="nav-link" href="">糖醋心里美</a></li>
+							</ul>
+						</div>
+						<div>
+							<div class="food_show row no-gutters  justify-content-between mt-2">
+								<div class=" col-xl-3 col-lg-3 col-md-6 col-sm-6 h_hover">
+									<div class="t_show mr-2 mb-1">
+										<img class="w-100 pic_a" src="img/f47.jpg" />
+										<div class="title_des w-100 text-white ">
+										    <p class="title_d mt-5 ml-3">标题：香辣海带丝</p>
+										    <p class="dec ml-3">描述：
+												凉拌菜，一定要用辣椒或花椒现炼的热油，并且要趁热浇上，这样才能将葱姜蒜这类调味料的香味儿激发出来，拌出的凉菜才会香气四溢。自从了解了这一点，我的凉拌菜终于找到了熟悉的味道，不管拌啥都成功，屡试不爽。另外，喜欢吃醋的同学，别忘了再放一勺醋，口味会更好滴。
+											</p>
+									    </div>
+									</div>
+								</div>
+								<div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
+									<div class="t_show  mr-2">
+										<img class="w-100 pic_a" src="img/f48.jpg" />
+										<div class="title_des w-100 text-white">
+										    <p class="title_d mt-5 ml-3">标题：手撕茄子</p>
+										    <p class="dec  ml-3">描述：
+											适合现在的季节或者夏天吃，非常开胃的一道小凉菜。 茄子皮是很有营养的东东，我家绝大多数时候都不去皮，这个菜例外，不信可以看我其它关于茄子的菜，所以请大家不要纠结这个皮的问题，我也不一一解释了。
+											</p>
+									    </div>
+									</div>
+								</div>
+								<div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
+									<div class="t_show  mr-2 mb-1">
+										<img class="w-100 pic_a" src="img/f49.jpg" />
+										<div class="title_des w-100 text-white">
+										    <p class="title_d mt-5 ml-3">标题：皮蛋豆腐</p>
+										    <p class="dec ml-3">描述：
+											皮蛋豆腐有一个很好的传说。三国时候，刘备自东吴借兵之后，便带着人马攻打西川，留下关羽镇守荆州。这一年夏天，天气酷热，将士们顶着太阳练习武艺，个个汗流浃背。将士们吃不下饭就用辣椒来下饭，时间一长，许多将士生内火，大便干结，小便赤黄，口干舌烂。
+											</p>
+									    </div>
+									</div>
+								</div>
+								<div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
+									<div class="t_show ">
+										<img class="pic_a w-100" src="img/f50.jpg" />
+										<div class="title_des w-100 text-white">
+										    <p class="title_d mt-5 ml-3">标题：凉拌木耳</p>
+										    <p class="dec ml-3">描述：
+											新买了东北的黑木耳，刚到家便迫不及待的打开了，这种木耳跟平常买的不同，小小的朵，泡了很久才泡开，很厚实，口感很劲道。
+											</p>
+									    </div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div id="d8" class="tab-pane">
+						<div>
+							<ul class="nav">
+								<li class="nav-item"><a class="nav-link" href="">砂锅炖红烧肉</a></li>
+								<li  class="nav-item"><a class="nav-link" href="">梭子蟹炒年糕</a></li>
+								<li class="nav-item"><a class="nav-link" href="">葱油淋杏鲍菇</a></li>
+								<li  class="nav-item"><a class="nav-link" href="">肥肠炖豆腐</a></li>
+								<li class="nav-item"><a class="nav-link" href="">千张卷烧肉</a></li>
+								<li  class="nav-item"><a class="nav-link" href="">糖醋小排</a></li>
+								<li class="nav-item"><a class="nav-link" href="">糖醋榨菜片</a></li>
+							</ul>
+						</div>
+						<div>
+							<div class="food_show row no-gutters  justify-content-between mt-2">
+								<div class=" col-xl-3 col-lg-3 col-md-6 col-sm-6 h_hover">
+									<div class="t_show mr-2 mb-1">
+										<img class="w-100 pic_a" src="img/f51.jpg" />
+										<div class="title_des w-100 text-white ">
+										    <p class="title_d mt-5 ml-3">标题：西红柿炖牛腩</p>
+										    <p class="dec ml-3">描述：
+												牛腩和番茄可谓是一对好搭档了。牛腩性温，吃多了容易上火，而番茄却性偏寒，二者一起炖煮，恰恰起到了寒热中和的效果。番茄属于酸酐生津之物，牛肉能养阴，二者搭配能起到补血滋阴的作用，而且植物蛋白和动物蛋白相结合，营养更均衡，非常适合女性，特别是产后的妈妈们使用。
+											</p>
+									    </div>
+									</div>
+								</div>
+								<div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
+									<div class="t_show  mr-2">
+										<img class="w-100 pic_a" src="img/f52.jpg" />
+										<div class="title_des w-100 text-white">
+										    <p class="title_d mt-5 ml-3">标题：南乳扣肉</p>
+										    <p class="dec  ml-3">描述：
+											在超市买回了一饼南方的腐乳，与北方的红色腐乳大不相同，呈米色，味道也有所部同，一直想用它做道南乳扣肉，南乳扣肉对我这个纯粹的北方人来说是及具挑战性的一道菜，特意跑到市场买了芋头，开工了，五花肉煮好切片与炸好的芋头片相间的码在碗里,倒入调好的料汁，上蒸锅蒸熟，蒸碗里的汤汁滗出不要扔掉，待把肉扣在盘子里后。用刚滗出的汤汁烧开, 水淀粉勾芡，浇在肉上即可，看看吧，色泽说的过去不。
+											</p>
+									    </div>
+									</div>
+								</div>
+								<div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
+									<div class="t_show  mr-2 mb-1">
+										<img class="w-100 pic_a" src="img/f53.jpg" />
+										<div class="title_des w-100 text-white">
+										    <p class="title_d mt-5 ml-3">标题：肉丝芹菜</p>
+										    <p class="dec ml-3">描述：
+											芹菜是冬季里的常见菜，芹菜也只有在入冬以后才会变得口感爽脆，味道鲜美。喜欢芹菜的清甜的味道，还有那爽脆的口感。 炒芹菜朋友们都是最熟悉不过的家常菜了，无非就是择洗干净后或荤或素，或热烹或凉拌。而且很多人吃芹菜时只吃茎而扔掉叶子，其实，芹菜叶比茎的营养要高出很多倍。
+											</p>
+									    </div>
+									</div>
+								</div>
+								<div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
+									<div class="t_show ">
+										<img class="pic_a w-100" src="img/f54.jpg" />
+										<div class="title_des w-100 text-white">
+										    <p class="title_d mt-5 ml-3">标题：糖醋豆腐</p>
+										    <p class="dec ml-3">描述：
+											酸甜可口
+											</p>
+									    </div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div id="d9" class="tab-pane">
+						<div>
+							<ul class="nav">
+								<li class="nav-item"><a class="nav-link" href="">砂锅炖红烧肉</a></li>
+								<li  class="nav-item"><a class="nav-link" href="">梭子蟹炒年糕</a></li>
+								<li class="nav-item"><a class="nav-link" href="">葱油淋杏鲍菇</a></li>
+								<li  class="nav-item"><a class="nav-link" href="">肥肠炖豆腐</a></li>
+								<li class="nav-item"><a class="nav-link" href="">千张卷烧肉</a></li>
+								<li  class="nav-item"><a class="nav-link" href="">糖醋小排</a></li>
+								<li class="nav-item"><a class="nav-link" href="">糖醋榨菜片</a></li>
+							</ul>
+						</div>
+						<div>
+							<div class="food_show row no-gutters  justify-content-between mt-2">
+								<div class=" col-xl-3 col-lg-3 col-md-6 col-sm-6 h_hover">
+									<div class="t_show mr-2 mb-1">
+										<img class="w-100 pic_a" src="img/f55.jpg" />
+										<div class="title_des w-100 text-white ">
+										    <p class="title_d mt-5 ml-3">标题：加菲猫月饼</p>
+										    <p class="dec ml-3">描述：
+												每年到了中秋就开始刮月饼风，各种各样的月饼琳琅满目，但是很多黑商家生产的月饼用的都是过期的材料等等真是让人不放心，还是自己做的比较安全，也比较有乐趣，中秋送家人和朋友一份亲手自制的月饼是很有意义的，冰皮月饼是用糯米做的不易消化不能吃多，所以这次试了果子的制作方法。比冰皮的吃起来口感更好，也更健康。
+											</p>
+									    </div>
+									</div>
+								</div>
+								<div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
+									<div class="t_show  mr-2">
+										<img class="w-100 pic_a" src="img/f56.jpg" />
+										<div class="title_des w-100 text-white">
+										    <p class="title_d mt-5 ml-3">标题：花盆南瓜慕斯</p>
+										    <p class="dec  ml-3">描述：
+											
+											</p>
+									    </div>
+									</div>
+								</div>
+								<div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
+									<div class="t_show  mr-2 mb-1">
+										<img class="w-100 pic_a" src="img/f57.jpg" />
+										<div class="title_des w-100 text-white">
+										    <p class="title_d mt-5 ml-3">标题：南瓜蒸蛋</p>
+										    <p class="dec ml-3">描述：
+											吃蒸鸡蛋非得用碗么？把鸡蛋在碗中蒸制之后，碗往往一股子腥味儿，洗干净了，腥味却依然存在，真是恼人烦。那有没有不用使餐具就能吃上美味蒸鸡蛋的方法呢？有的。今天，本人选用了一种太空小南瓜用来当餐具，不但方便实用省去洗涮之忧，而且还能品尝到鲜嫩幼滑似布丁口感的蒸鸡蛋，搭配着小南瓜的甜糯，真是盖了去了。哈哈！
+											</p>
+									    </div>
+									</div>
+								</div>
+								<div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
+									<div class="t_show ">
+										<img class="pic_a w-100" src="img/f58.jpg" />
+										<div class="title_des w-100 text-white">
+										    <p class="title_d mt-5 ml-3">标题：鹌鹑蛋小蘑菇</p>
+										    <p class="dec ml-3">描述：
+											 鹌鹑蛋的营养价值高，与鸡蛋相比，蛋白质含量高30%，维生素B1高20%，维生素B2高83%，铁高46.1%，卵磷脂高5.6倍，并含有维生素P等成分。，不仅是营养滋补佳品，而且是治疗许多疾病的良药。 樱桃萝卜含较高的水分，维生素C含量是番茄的3~4倍，还含有较高的矿物质元素、芥子油、木质素等多种成分。
+									    </div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			</section>
+			<article>
+			<div class="dishes ">
+				<div class="row no-gutters mt-4">
+					<div class="col-xl-12 text-center h1 mb-5">精品菜</div>
+					<div id="demo" class="carousel" data-ride="carousel">
+						<div class="carousel-inner">
+							<div class="carousel-item active">
+						        <div class="row ">
+						        	<div class=" col-xl-6 col-lg-6 col-md-12 col-sm-12 ">
+						        		<div class="d-flex justify-content-around border_all dishes_hover">
+						        			<div class="pic_all"><img class="pic_all_radius" src="img/f12.jpg"></div>
+						        			<div class="text-overflow pl-3 pt-5">
+						        			    <h5 class=" letter-spacing">葱爆羊肉</h5>
+						        			    <p class=" text_small letter-spacing text-overflow">
+													羊肉肉质与牛肉相似，但肉味较浓。羊肉较猪肉的肉质要细嫩，较猪肉和牛肉的脂肪、胆固醇含量少。 羊肉性温热，常吃容易上火。因此，吃羊肉时可以搭配一些凉性蔬菜。
+												</p>
+											</div>
+						        		</div>
+						            </div>
+									<div class=" col-xl-6 col-lg-6 col-md-12 col-sm-12">
+										<div class="d-flex justify-content-around border_all dishes_hover">
+											<div class="pic_all"><img class="pic_all_radius" src="img/f14.jpg"></div>
+											<div class="text-overflow pl-3  pt-5">
+											    <h5 class=" letter-spacing">剁椒丝瓜炒蛋</h5>
+											    <p class=" text_small letter-spacing text-overflow">
+													丝瓜是夏日的时令蔬菜。 丝瓜的营养价值很高，夏日多吃丝瓜对女性很好，因为它可以美肤润肌。 丝瓜炒蛋很家常的菜，可是只用了一点剁椒，把原本清淡的菜式变成为一道养眼
+												</p>
+											</div>
+										</div>
+									</div>
+									
+									<div class=" col-xl-6 col-lg-6 col-md-12 col-sm-12 mt-5">
+										<div class="d-flex justify-content-around border_all dishes_hover">
+											<div class="pic_all"><img class="pic_all_radius" src="img/f10.jpg"></div>
+											<div class="text-overflow pl-3  pt-5">
+											    <h5 class=" letter-spacing">香菜梗炒土豆丝</h5>
+											    <p class=" text_small letter-spacing text-overflow">
+												买回一把香菜，一菜两吃，叶子摘来煮汤，香菜的梗用来炒土豆丝，很清爽呀，香菜梗炒土豆丝很好吃，吃过以后，隔天又特意买了香菜回来再次做了一盘，很快就扫光光啦
+												</p>
+											</div>
+										</div>
+									</div>
+									<div class=" col-xl-6 col-lg-6 col-md-12 col-sm-12 mt-5">
+										<div class="d-flex justify-content-around border_all dishes_hover">
+											<div class="pic_all"><img class="pic_all_radius" src="img/f8.jpg"></div>
+											<div class="text-overflow pl-3  pt-5">
+											    <h5 class=" letter-spacing">蚝油香菇扁豆</h5>
+											    <p class=" text_small letter-spacing text-overflow">
+													蚝油一直都是我家厨房提味增鲜不二法宝，冰箱中常备。 不论是素菜还是荤菜加入少许，都会给你的菜品提升口感。 这道素菜只加少许蚝油提味，味道清淡又鲜美，色彩艳丽
+												</p>
+											</div>
+										</div>
+									</div>		
+						        </div>	
+					        </div>
+							
+							<div class="carousel-item">
+						       <div class="row">
+						       	<div class=" col-xl-6 col-lg-6 col-md-12 col-sm-12">
+						       		<div class="d-flex justify-content-around border_all dishes_hover">
+						       			<div class="pic_all"><img class="pic_all_radius" src="img/f19.jpg"></div>
+						       			<div class="text-overflow pl-3  pt-5">
+						       			    <h5 class=" letter-spacing">豆角土豆炖排骨</h5>
+						       			    <p class=" text_small letter-spacing text-overflow">
+												作为肉食爱好者来讲,最近少了很多肉肉的乐趣,喝中药忌口不能吃牛羊肉,深海里的鱼伯伯都吃不了,所以就只有跟猪肉较上劲儿了。肉丝，肉圆子，肉片吃腻了之后，还是排骨这
+											</p>
+						       		    </div>
+						       		</div>
+						           </div>
+						       	
+						       	<div class=" col-xl-6 col-lg-6 col-md-12 col-sm-12">
+						       		<div class="d-flex justify-content-around border_all dishes_hover">
+						       			<div class="pic_all"><img class="pic_all_radius" src="img/f20.jpg"></div>
+						       		    <div class="text-overflow pl-3  pt-5">
+						       				<h5 class=" letter-spacing">红烧牛肉面</h5>
+						       				<p class=" text_small letter-spacing text-overflow">
+												牛肉吃起来软而不烂，更有口感，再搭配上清爽的青菜，浓郁的汤头，风味别具一格。
+											</p>
+										</div>
+						       		</div>
+						       	</div>
+						       			
+						       	<div class=" col-xl-6 col-lg-6 col-md-12 col-sm-12 mt-5">
+						       		<div class="d-flex justify-content-around border_all dishes_hover">
+						       			<div class="pic_all"><img class="pic_all_radius" src="img/f22.jpg"></div>
+						       			<div class="text-overflow pl-3  pt-5">
+						       			    <h5 class=" letter-spacing">酸菜白肉火锅</h5>
+						       			    <p class=" text_small letter-spacing text-overflow">
+												酸白菜汆白肉是一道著名的东北菜。做法非常简单，汤汁浓郁，肉中带着酸菜的香味。入口即化，肥而不腻，用来火锅也是不错滴，再加上一些耐煮的食材一起炖煮，味道也超棒的。
+											</p>
+						       			</div>
+						       		</div>
+						       	</div>
+						       	<div class=" col-xl-6 col-lg-6 col-md-12 col-sm-12 mt-5">
+						       		<div class="d-flex justify-content-around border_all dishes_hover">
+						       			<div class="pic_all"><img class="pic_all_radius" src="img/f23.jpg"></div>
+						       			<div class="text-overflow pl-3  pt-5">
+						       			    <h5 class=" letter-spacing">鲶鱼豆腐火锅</h5>
+						       			    <p class=" text_small letter-spacing text-overflow">
+												这两天湖北下雪了，真是冷啊！坨坨妈在家猫了几天了，要不是坨坨在旁边闹，说实话我连床都不愿意下，就巴不得整天在我暖和的被窝里呆着，坨坨爸说我不该是属马的，应该是属
+											
+											</p>
+						       			</div>
+						       		</div>
+						       	</div>			
+						       </div>
+							   
+					        </div>
+							<div class="carousel-item">
+							   <div class="row ">
+								<div class=" col-xl-6 col-lg-6 col-md-12 col-sm-12 ">
+									<div class="d-flex justify-content-around border_all dishes_hover">
+										<div class="pic_all"><img class="pic_all_radius" src="img/f9.jpg"></div>
+										<div class="text-overflow pl-3 pt-5">
+										    <h5 class=" letter-spacing">生姜炒扁豆</h5>
+										    <p class=" text_small letter-spacing text-overflow">
+											生姜性温，其特有的“姜辣素”能刺激胃肠黏膜，使胃肠道充血，消化能力增强，能有效地治疗吃寒凉食物过多而引起的腹胀、腹痛、腹泻、呕吐等。 吃过生姜后，人会有身体发热
+											</p>
+										</div>
+									</div>
+								</div>
+								
+							   	<div class=" col-xl-6 col-lg-6 col-md-12 col-sm-12">
+							   		<div class="d-flex justify-content-around border_all dishes_hover">
+							   			<div class="pic_all"><img class="pic_all_radius" src="img/f28.jpg"></div>
+							   		    <div class="text-overflow pl-3 pt-5">
+							   				<h5 class=" letter-spacing">剁椒鱼头</h5>
+							   				<p class=" text_small letter-spacing text-overflow">
+												猛然看到这一盘菜，不吃辣的亲可能就要被吓着了,好辣!哈哈，被骗住了吧，一点不辣的。小女不吃辣椒，这是为小女量身打造的一盘不辣的剁椒鱼头！女人就是这样，嫁人之后炒
+											</p>
+							   			</div>
+							   		</div>
+							   	</div>
+							   			
+							   	<div class=" col-xl-6 col-lg-6 col-md-12 col-sm-12 mt-5">
+							   		<div class="d-flex justify-content-around border_all dishes_hover">
+							   			<div class="pic_all"><img class="pic_all_radius" src="img/f27.jpg"></div>
+							   			<div class="text-overflow pl-3 pt-5">
+							   			    <h5 class=" letter-spacing">口水鸡</h5>
+							   			    <p class=" text_small letter-spacing text-overflow">
+												口水鸡是一道凉菜，佐料丰富，集麻辣鲜香嫩爽于一身。有“名驰巴蜀三千里，味压江南十二州”的美称。“口水鸡”这名字初听感觉有点不雅，脑子里可能会出现一副口水滴哒的样
+											
+											</p>
+							   			</div>
+							   		</div>
+							   	</div>
+							   	<div class=" col-xl-6 col-lg-6 col-md-12 col-sm-12 mt-5">
+							   		<div class="d-flex justify-content-around border_all dishes_hover">
+							   			<div class="pic_all"><img class="pic_all_radius" src="img/f26.jpg"></div>
+							   			<div class="text-overflow pl-3 pt-5">
+							   			    <h5 class=" letter-spacing">珍珠丸子</h5>
+							   			    <p class=" text_small letter-spacing text-overflow">
+												 俺一直觉得珍珠丸子是内在美和外在美兼备的一种食物,前几年公司里有个安徽阿姨,做珍珠丸子很拿手,夏天吃饭没有胃口,一般挑挑拣拣,一碗水果、一碗汤足够打发了，
+												 
+											</p>
+							   			</div>
+							   		</div>
+							   	</div>			
+							   </div>
+							</div>
+
+						</div>
+					</div>
+					
+				</div>
+			</div>
+			</article>
+			
+		</div>
+		<iframe src="footer.html" class="w-100 border-0 mt-5" scrolling="no"></iframe>
+	</body>
+</html>
